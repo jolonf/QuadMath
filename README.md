@@ -32,8 +32,3 @@ let d = Double(a + b)
 
 print("result = \(d)")
 ```
-
-# Notes
-
-The path to the `libqfloat_bridge.a` static library is specified in this package's `Package.swift` file using `linkerSettings` `unsafeFlags`. However, the path appears to be relative to the application using the QuadMath package, not the QuadMath package itself. I haven't been able to work out how to make the path relative to this package and include the static library in this package.
-
