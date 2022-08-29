@@ -16,7 +16,7 @@ Add the QuadMath package as a dependency.
 
 You will also need to create a `Lib` subdirectory in the root directory of your project and include the libqfloat_bridge.a library there. The [qfloat_bridge](https://github.com/jolonf/qfloat_bridge) library must be built from source, follow the project's instructions.
 
-See the `QuadMathTester` project for an example of how to use the project.
+See the [QuadMathTester](https://github.com/jolonf/QuadMathTester) project for an example of how to use the project.
 
 See the `Sources/QuadMath/QuadMath.swift` file for a list of functions and operators that can be used.
 
